@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Android Studio
+Comment=
+Exec=/usr/local/android-studio/bin/studio.sh
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=/usr/local/android-studio/bin/studio.png
+Categories=

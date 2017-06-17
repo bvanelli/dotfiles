@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=MATLAB
+Comment=
+Exec=/usr/local/MATLAB/R2016b/bin/matlab -desktop
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=/usr/share/icons/matlab.png
+Categories=

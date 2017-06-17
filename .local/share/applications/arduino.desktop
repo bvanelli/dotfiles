@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Arduino
+Comment=
+Exec=/usr/local/arduino/arduino
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=/usr/local/arduino/lib/icons/128x128/apps/arduino.png
+Categories=
