@@ -5,5 +5,5 @@ Exec=/usr/local/MATLAB/R2016b/bin/matlab -desktop
 Terminal=false
 Type=Application
 StartupNotify=true
-Icon=/usr/share/icons/matlab.png
+Icon=/var/lib/app-info/icons/ubuntu-xenial-multiverse/64x64/matlab-support_matlab.png
 Categories=
