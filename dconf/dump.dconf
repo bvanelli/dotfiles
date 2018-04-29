@@ -1,0 +1,196 @@
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=false
+
+[org/gnome/settings-daemon/plugins/xsettings]
+overrides={'Gtk/ShellShowsAppMenu': <1>}
+hinting='slight'
+
+[org/gnome/settings-daemon/peripherals/keyboard]
+numlock-state='off'
+
+[org/gnome/shell]
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'dash-to-panel@jderose9.github.com', 'alternate-tab@gnome-shell-extensions.gcampax.github.com']
+disable-user-extensions=false
+favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop']
+enable-hot-corners=false
+
+[org/gnome/shell/extensions/user-theme]
+name='Yosemite-dark'
+
+[org/gnome/shell/extensions/dash-to-dock]
+dock-fixed=true
+dock-position='LEFT'
+dash-max-icon-size=20
+
+[org/gnome/shell/extensions/dash-to-panel]
+group-apps=true
+animate-show-apps=true
+shift-click-action='MINIMIZE'
+shift-middle-click-action='LAUNCH'
+dot-position='BOTTOM'
+panel-position='BOTTOM'
+panel-size=32
+dot-style-focused='METRO'
+show-show-apps-button=false
+show-showdesktop-button=false
+group-apps-label-font-color='#dddddd'
+show-activities-button=false
+group-apps-underline-unfocused=true
+taskbar-position='LEFTPANEL'
+show-favorites=true
+leftbox-size=0
+appicon-margin=0
+show-window-previews=true
+tray-size=0
+middle-click-action='LAUNCH'
+show-appmenu=false
+isolate-workspaces=true
+
+[org/gnome/shell/window-switcher]
+app-icon-mode='both'
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[org/gnome/gedit/plugins/filebrowser]
+virtual-root='file:///home/brunno/Downloads/dash-to-panel@jderose9.github.com.v13.shell-extension'
+tree-view=true
+root='file:///'
+
+[org/gnome/gedit/plugins]
+active-plugins=['time', 'docinfo', 'filebrowser', 'modelines', 'spell']
+
+[org/gnome/gedit/state/window]
+size=(900, 671)
+state=87168
+bottom-panel-size=140
+side-panel-size=200
+side-panel-active-page='GeditWindowDocumentsPanel'
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+
+[org/gnome/nautilus/window-state]
+sidebar-width=196
+geometry='890x548+211+134'
+maximized=false
+
+[org/gnome/evolution-data-server]
+network-monitor-gio-name=''
+migrated=true
+
+[org/gnome/desktop/interface]
+clock-show-date=true
+show-battery-percentage=false
+text-scaling-factor=1.0
+gtk-im-module='gtk-im-context-simple'
+clock-show-seconds=true
+icon-theme='Paper'
+gtk-theme='Yosemite-dark'
+
+[org/gnome/desktop/notifications]
+application-children=['firefox', 'org-gnome-tweaks', 'org-gnome-nautilus', 'org-gnome-terminal']
+
+[org/gnome/desktop/notifications/application/org-gnome-tweaks]
+application-id='org.gnome.tweaks.desktop'
+
+[org/gnome/desktop/notifications/application/firefox]
+application-id='firefox.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-terminal]
+application-id='org.gnome.Terminal.desktop'
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'Sundry', 'YaST']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+translate=true
+categories=['X-GNOME-Utilities']
+apps=['org.gnome.baobab.desktop', 'deja-dup-preferences.desktop', 'eog.desktop', 'evince.desktop', 'org.gnome.FileRoller.desktop', 'gnome-calculator.desktop', 'gnome-dictionary.desktop', 'org.gnome.Characters.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Screenshot.desktop', 'gnome-system-log.desktop', 'gnome-system-monitor.desktop', 'gnome-tweak-tool.desktop', 'gucharmap.desktop', 'seahorse.desktop', 'vinagre.desktop', 'yelp.desktop']
+name='X-GNOME-Utilities.directory'
+
+[org/gnome/desktop/app-folders/folders/Sundry]
+translate=true
+categories=['X-GNOME-Sundry']
+apps=['alacarte.desktop', 'authconfig.desktop', 'ca.desrt.dconf-editor.desktop', 'fedora-release-notes.desktop', 'firewall-config.desktop', 'flash-player-properties.desktop', 'gconf-editor.desktop', 'gnome-abrt.desktop', 'gnome-power-statistics.desktop', 'ibus-setup-anthy.desktop', 'ibus-setup.desktop', 'ibus-setup-hangul.desktop', 'ibus-setup-libbopomofo.desktop', 'ibus-setup-libpinyin.desktop', 'ibus-setup-m17n.desktop', 'ibus-setup-typing-booster.desktop', 'im-chooser.desktop', 'itweb-settings.desktop', 'jhbuild.desktop', 'javaws.desktop', 'java-1.7.0-openjdk-jconsole.desktop', 'java-1.7.0-openjdk-policytool.desktop', 'log4j-chainsaw.desktop', 'log4j-logfactor5.desktop', 'nm-connection-editor.desktop', 'orca.desktop', 'setroubleshoot.desktop', 'system-config-date.desktop', 'system-config-firewall.desktop', 'system-config-keyboard.desktop', 'system-config-language.desktop', 'system-config-printer.desktop', 'system-config-users.desktop', 'vino-preferences.desktop']
+name='X-GNOME-Sundry.directory'
+
+[org/gnome/desktop/app-folders/folders/YaST]
+translate=true
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+
+[org/gnome/desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+disabled=@as []
+
+[org/gnome/desktop/calendar]
+show-weekdate=false
+
+[org/gnome/desktop/wm/preferences]
+button-layout=':appmenu,minimize,maximize,close'
+
+[org/gnome/desktop/sound]
+theme-name='__custom'
+event-sounds=true
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'br')]
+xkb-options=@as []
+
+[org/gnome/control-center]
+last-panel='wifi'
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+foreground-color='rgb(131,148,150)'
+visible-name='default'
+default-size-columns=92
+default-size-rows=25
+use-system-font=false
+use-transparent-background=true
+use-theme-colors=true
+font='Ubuntu Mono 12'
+use-theme-transparency=false
+background-color='rgb(0,43,54)'
+background-transparency-percent=4
+
+[org/gnome/terminal/legacy]
+schema-version=uint32 3
+default-show-menubar=false
+
+[org/gnome/software]
+check-timestamp=int64 1525009060
+
+[org/gnome/mutter]
+dynamic-workspaces=true
+workspaces-only-on-primary=false
+
+[org/gtk/settings/file-chooser]
+sort-column='name'
+sidebar-width=196
+window-position=(92, 72)
+show-size-column=true
+show-hidden=false
+window-size=(1203, 693)
+sort-directories-first=true
+date-format='regular'
+sort-order='ascending'
+location-mode='path-bar'
+
+[org/gtk/settings/color-chooser]
+selected-color=(true, 0.8666666666666667, 0.8666666666666667, 0.8666666666666667, 1.0)
+custom-colors=[(0.8666666666666667, 0.8666666666666667, 0.8666666666666667, 1.0)]
+
+[com/ubuntu/update-notifier]
+release-check-time=uint32 1525009056
+
+[com/ubuntu/sound]
+allow-amplified-volume=false
