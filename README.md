@@ -9,7 +9,7 @@ apt install curl
 Run requirements
 
 ```bash
-curl -Lks https://github.com/bvanelli/dotfiles/blob/gnome/requirements.sh | /bin/bash
+curl -Lks https://raw.githubusercontent.com/bvanelli/dotfiles/gnome/requirements.sh | /bin/bash
 ```
 
 Clone configs
