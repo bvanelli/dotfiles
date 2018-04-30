@@ -31,8 +31,8 @@ set spell spelllang=pt,en
 autocmd FileType latex,tex,md,markdown setlocal spell
 
 " Tab navigation like Firefox. Doesn't work
-nnoremap <C-S-tab> :bp<CR>
-nnoremap <C-tab>   :bn<CR>
+nnoremap <C-S-Left> :tabprevious<CR>
+nnoremap <C-S-Right>   :tabnext<CR>
 
 " Load configs based on filetype
 filetype plugin on

@@ -90,6 +90,14 @@ alias upk="sudo apt update && sudo apt -y upgrade && sudo apt -y autoremove"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias texinit='wget https://transfer.sh/tm3Rl/output.zip && unzip output.zip && rm output.zip' # TODO
 
+alias a="sudo apt"
+alias sy="sudo systemctl"
+alias v="vim"
+alias sv="sudo vim"
+alias r="ranger"
+alias sr="sudo ranger"
+alias g="git"
+alias gitup="git push origin master"
+
 # disable ctrl-s annoyance
 stty -ixon
-
