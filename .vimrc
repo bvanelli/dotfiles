@@ -29,10 +29,13 @@ nnoremap <F4> :make<CR>
 
 set spell spelllang=pt,en
 autocmd FileType latex,tex,md,markdown setlocal spell
+nnoremap map <F8> :setlocal spell<CR>
 
-" Tab navigation like Firefox. Doesn't work
+" Tab navigation
 nnoremap <C-S-Left> :tabprevious<CR>
 nnoremap <C-S-Right>   :tabnext<CR>
+nnoremap <C-w> :q<CR>
+nnoremap <C-s> :w<CR>
 
 " Load configs based on filetype
 filetype plugin on
