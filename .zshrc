@@ -97,7 +97,6 @@ alias sv="sudo vim"
 alias r="ranger"
 alias sr="sudo ranger"
 alias g="git"
-alias gitup="git push origin master"
 
 # disable ctrl-s annoyance
 stty -ixon
