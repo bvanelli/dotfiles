@@ -27,12 +27,26 @@ command! WQa :wqa
 " Compilation
 nnoremap <F4> :make<CR>
 
-set spell spelllang=pt,en
+" Spell check
+set spell spelllang=pt,en_us
 autocmd FileType latex,tex,md,markdown setlocal spell
+nnoremap <F8> :call ToggleSpell()<CR>
+let b:folded = 0
+function! ToggleSpell()
+  if( b:folded == 0 )
+      exec "hi SpellBad cterm=underline"
+      let b:folded = 1
+  else
+      exec "hi SpellBad cterm=none"
+      let b:folded = 0
+  endif
+endfunction
 
-" Tab navigation like Firefox. Doesn't work
-nnoremap <C-S-tab> :bp<CR>
-nnoremap <C-tab>   :bn<CR>
+" Tab navigation
+nnoremap <C-S-Left> :tabprevious<CR>
+nnoremap <C-S-Right>   :tabnext<CR>
+nnoremap <C-w> :q<CR>
+nnoremap <C-s> :w<CR>
 
 " Load configs based on filetype
 filetype plugin on
